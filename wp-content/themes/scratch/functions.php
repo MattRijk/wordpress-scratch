@@ -73,4 +73,9 @@ function scratch_setup() {
     include_once(get_stylesheet_directory() . '/includes/widget-areas.php' );
     
 }
+// Add Google Font stylesheet.
+add_action('wp_enqueue_scripts','scratch_enqueue_styles');
+function scratch_enqueue_styles() {
+    wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css?family=Roboto:400,400italic,700italic,700|Lobster' );
+}
     
