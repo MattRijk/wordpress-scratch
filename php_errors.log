@@ -1,0 +1,10 @@
+[25-Jul-2016 15:24:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'scratch_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[25-Jul-2016 15:24:03 UTC] PHP Stack trace:
+[25-Jul-2016 15:24:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[25-Jul-2016 15:24:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[25-Jul-2016 15:24:03 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[25-Jul-2016 15:24:03 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[25-Jul-2016 15:24:03 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:369
+[25-Jul-2016 15:24:03 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/genesis/functions.php:25
+[25-Jul-2016 15:24:03 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-content/themes/genesis/lib/init.php:306
+[25-Jul-2016 15:24:03 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
